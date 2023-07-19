@@ -111,19 +111,19 @@ a {
     border: 3px;
     border-color: #3882F6;
     border-style: solid;
+    justify-content: center;
+    align-items: center;
 }
 
 .mini-card {
-    width: 200px;
-    height: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     flex: 1 1 0%;
+    text-align: center;
 }
 .mini-card-text {
     text-align: center;
-    max-height: 0px;
-    max-width: 190px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 90px;
 }
 
@@ -203,4 +203,14 @@ a {
   border-style: solid;
   background-color: transparent;
   color:white;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+
 }

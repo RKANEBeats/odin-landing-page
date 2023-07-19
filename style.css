@@ -85,10 +85,10 @@ a {
 
 .container-2 {
     justify-content: center;
-    gap: 70px;
+    gap: 10px; 
     height: auto;
     display: flex;
-    padding: 10px 300px;
+    padding: 10px 400px;
     align-items: center;
 }
 
@@ -117,12 +117,90 @@ a {
     width: 200px;
     height: auto;
     justify-content: space-evenly;
-    flex: 1;
-    
+    flex: 1 1 0%;
 }
 .mini-card-text {
     text-align: center;
     max-height: 0px;
+    max-width: 190px;
+    justify-content: space-evenly;
+    padding-bottom: 90px;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    padding: 100px 0px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: row;
+    text-align:justify;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.quote > p {
+    width: 500px;
+    font-weight: lighter;
+}
+
+.author {
+    display: flex;
+    flex: 1 0.5 0;
+    justify-content: center;
+    max-height: 20px;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.author > p {
+    text-align: right;
+    width: 50%;
 
 }
 
+.container-4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.newsletter-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    background-color: #3882F6;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.newsletter-text {
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.newsletter-text > p {
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.newsletter-button > button {
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  border-color: white;
+  border-style: solid;
+  background-color: transparent;
+  color:white;
+}
